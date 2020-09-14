@@ -1,0 +1,70 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+@font-face{
+    font-family: 'Open Sans Semibold';
+    src:url('../fonts/OpenSans-Semibold.ttf');   
+}
+@font-face{
+    font-family: 'Open Sans ExtraBold';
+    src:url('../fonts/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+    font-family: 'Open Sans Light';
+    src:url('../fonts/OpenSans-Light.ttf');
+}
+@font-face{
+    
+    font-family: 'Open Sans Regular';
+    src:url('../fonts/OpenSans-Regular.ttf')
+}
+@font-face{
+    font-family: 'Open Sans Bold';
+    src:url('../fonts/OpenSans-Bold.ttf')
+}
+/* header */
+/* nav */
+/* section */
+/* footer */
+/* copy-right */
+#copy-right{
+    background-color: #1a1c1f;
+    color:white;
+    font-family:'Arial';
+    font-size: 13px;
+    height: 60px;
+    text-transform: none;
+    padding-top: 25px;
+}
+.p-l-0{
+    padding-left: 0;
+}
+/* main product */
+.main-product .specifications span{
+    display: block;
+    margin-bottom: 10px;
+   
+    text-transform: none;
+}
+.main-product form{
+    margin-top: 30px;   
+}
+/* intro-product */
+.icon-star{
+    color:yellow;
+    margin-top: 30px;
+}
+.icon-star ul{
+    display: flex;
+}
+.icon-star ul li{
+    list-style: none;
+}

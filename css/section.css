@@ -1,0 +1,140 @@
+
+.title{
+    background-color:#3b84b0 ;
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+  
+}
+
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+a.list-group-item, button.list-group-item {
+    color: #555;
+    background-color: #f2f1f1;
+}
+body {
+    font-family: 'Open Sans Semibold';
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #464a51;
+    border-color: #464a51;
+}
+img{
+    height:120px;
+    width: 240px ;
+}
+.best-saller{
+    background-color: #f2f1f1;
+    padding: 10px;
+}
+h4{
+    font-family: 'Open Sans Bold';
+    font-size: 14px;
+    padding-top: 5px;
+    color: #424343;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #a7a7a7;
+    color: #a7a7a7;
+}
+h1{
+    color:red;
+    font-family: 'Open Sans ExtraBold';
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    line-height: 30px;
+    font-family: "Arial";
+    font-size: 15px;
+    text-transform: none;
+    color: #464a51;
+    text-align: justify;
+}
+/* title steel */
+.title-steel{
+    height:50px;
+    width: 100%;
+    display: flex;
+    background-color: #222326;
+    justify-content: space-between;
+    color:#f2f1f1;
+    
+}
+.text{
+    display: block;
+    width: 33%;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    background-color: #3b84b0;
+    padding: 15px 20px;
+    font-family: 'Open Sans Semibold';
+    font-size: 16px;
+}
+
+.more{
+    display: block;
+    width: 67%;
+    text-align: right;
+    font-family: "Arial";
+    font-size: 12px;
+    text-transform: none;
+    padding: 15px 20px;
+    color:#f2f1f1
+}
+.more a:hover{color:#3b84b0}
+.product img{
+    margin-top: 30px;
+
+}
+.title-product{
+    width: 250px;
+    height:50px;
+    background-color: #222326;
+    color:white;
+    padding: 15px 20px ;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 15px;
+}
+.title-product:hover{
+    background-color: #3b84b0;
+    color:white
+}
+.product h3{
+    font-family: "Arial";
+    font-size: 15px;
+    color:white;
+    background-color: #222326;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product h3:hover{
+    background-color: #3b84b0;
+}
+.product img{
+    width: 100%;
+}
+.product a{
+    text-decoration: none;
+}
