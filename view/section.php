@@ -101,8 +101,7 @@
                         </div>
                        
                             <div class="row">
-                            <?php $bg = $dt->Game(4);?>
-                            <?php while ($row = $bg ->fetch_assoc() ) { ?>
+                            
                                 <div class="col-md-4">
                                     <div class="product">
                                         <a href="view/viewgame.php"> <img src="img/123.jpeg" class="img-responsive center-block"></a>
@@ -117,8 +116,7 @@
                                     
                                     </div>
                                 </div>
-                            <?php } ?>
-                                <!-- <div class="col-md-4">
+                                <div class="col-md-4">
                                     <div class="product">
                                        
                                         <a href="view/viewgame.php"> <img src="img/12.jpg" class="img-responsive center-block"></a>
@@ -144,7 +142,7 @@
                                         <a href="view/viewgame.php"> <img src="img/images.jfif" class="img-responsive center-block"></a>
                                         <h3>DIABLO 3</h3>
                                         <h2 style="text-align:center">1,400.000d</h2>
-                                </div> -->
+                                </div>
                             </div>
                        
                   </div>
